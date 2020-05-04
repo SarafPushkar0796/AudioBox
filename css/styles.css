@@ -1,0 +1,24 @@
+.bg-blur{
+    backdrop-filter: blur(13px)!important;
+}
+
+.card-device{
+    flex: 0 0 auto;
+    display: inline-block!important;
+    height: 370px !important;
+    min-width: 240px !important;
+    border-radius: 6px 6px 0 0;
+}
+.row-horizon{
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For Desktop */
+    *{
+        visibility: hidden;
+        display: none;
+    }
+}
